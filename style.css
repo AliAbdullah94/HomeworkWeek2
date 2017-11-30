@@ -1,0 +1,557 @@
+/* DESKTOP */
+
+
+
+    html{
+        font-size: 1rem;
+        font-family:cursive;
+    }
+
+    *{
+        margin-left:0px;
+/*
+        padding-left: .2rem;
+        padding-right: .2rem;
+*/
+    }
+
+    body{
+        background-color: #1a1c33;
+        color:#0a95ad;
+        width: 100%;
+    }
+
+    img{
+        max-width: 95%;
+        height: auto;
+    }
+    
+
+    section{
+        display: block;
+        width: 100%;
+    }
+    
+    h1{
+        background-color: #3c026d;
+        font-size: 3rem;
+        color:#5c0ade;
+        padding:0.5rem;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+        border-radius: 20px;
+    }
+
+    h2{
+        background-color: #800872;
+        margin-left: 10%;
+        margin-right: 10%;
+        color:#d2b6ff;
+        padding:1rem;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+        clear:both;
+        border-radius: 20px;
+    }
+    
+    h3{
+        color:#1a1c33;
+    }
+    
+    p{
+        color:#800872;
+    }
+    
+#grid-floats{
+    padding-left:1rem;
+}
+#grid-flex{
+    padding-left:1rem;
+}
+
+    .grid-item{
+        float:left;
+        text-align: center;
+        padding:0.3rem;
+        margin: .2rem;
+        background: linear-gradient(to top,white,#6b3b95);
+        height: 40rem;
+        border: 1px solid #800872;
+        border-radius: 15px;
+    }
+
+    .grid-item:hover{
+        background: linear-gradient(to top,white,#551989);
+    }
+
+    #grid-floats .grid-item:nth-child(1){
+        width:47%;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(2){
+        width:23%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(3){
+        width:23%;
+        float:left;  
+        margin-bottom: 10px
+    }
+    #grid-floats .grid-item:nth-child(4){
+        width:23%;
+        float:left;   
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(5){
+        width:23%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(6){
+        width:23%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(7){
+        width:23%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(8){
+        width:23%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(9){
+        width:23%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(10){
+        width:23%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(11){
+        width:23%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(12){
+        width:23%;
+        float:left;   
+        margin-bottom: 30px;
+    }
+    #grid-floats .grid-item:nth-child(13){
+        width:23%;
+        float:left;     
+        margin-bottom: 30px;
+    }
+    #grid-floats .grid-item:nth-child(14){
+        width:23%;
+        float:left;    
+        margin-bottom: 30px;
+    }
+    
+
+
+
+
+
+    #grid-flex{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content: left;
+    }
+
+    #grid-flex .grid-item:nth-child(1){
+        flex-basis: 47%;
+        margin-bottom: 10px;
+    }
+
+    #grid-flex .grid-item:nth-child(2){
+        flex-basis: 23%;
+        margin-bottom: 10px;
+    }
+
+    #grid-flex .grid-item:nth-child(3){
+        flex-basis: 23%;   
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(4){
+        flex-basis:23%;    
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(5){
+        flex-basis:23%; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(6){
+        flex-basis:23%;    
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(7){
+        flex-basis:23%;    
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(8){
+        flex-basis:23%;     
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(9){
+        flex-basis:23%; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(10){
+        flex-basis:23%; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(11){
+        flex-basis:23%;    
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(12){
+        flex-basis:23%;    
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(13){
+        flex-basis:23%;   
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(14){
+        flex-basis:23%;  
+        margin-bottom: 10px;
+    } 
+
+
+
+
+
+
+/* TABLETS */
+
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    
+    #grid-floats .grid-item:nth-child(1){
+        width:47%;
+        float:left;
+        margin-bottom: 10px;
+        
+    }
+    
+    #grid-floats .grid-item:nth-child(2){
+        width:47%;
+        float:left;
+        margin-bottom: 10px;
+        
+    }
+    
+    #grid-floats .grid-item:nth-child(3){
+        width:30%;
+        float:left;  
+        margin-bottom: 10px
+    }
+    #grid-floats .grid-item:nth-child(4){
+        width:30%;
+        float:left;   
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(5){
+        width:30%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(6){
+        width:30%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(7){
+        width:30%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(8){
+        width:30%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(9){
+        width:30%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(10){
+        width:30%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(11){
+        width:30%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(12){
+        width:30%;
+        float:left;   
+        margin-bottom: 30px;
+    }
+    #grid-floats .grid-item:nth-child(13){
+        width:30%;
+        float:left;     
+        margin-bottom: 30px;
+    }
+    #grid-floats .grid-item:nth-child(14){
+        width:30%;
+        float:left;    
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    #grid-flex .grid-item:nth-child(1){
+        flex-basis: 47%;
+        float:left;
+        margin-bottom: 10px;
+    }
+
+    #grid-flex .grid-item:nth-child(2){
+        flex-basis: 47%;
+        float:left;
+        margin-bottom: 10px;
+    }
+
+    #grid-flex .grid-item:nth-child(3){
+        flex-basis: 30%;   
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(4){
+        flex-basis:30%;    
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(5){
+        flex-basis:30%; 
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(6){
+        flex-basis:30%;   
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(7){
+        flex-basis:30%;   
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(8){
+        flex-basis:30%;     
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(9){
+        flex-basis:30%; 
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(10){
+        flex-basis:30%; 
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(11){
+        flex-basis:30%;    
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(12){
+        flex-basis:30%;    
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(13){
+        flex-basis:30%;   
+        float:left;
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(14){
+        flex-basis:30%;  
+        float:left;
+        margin-bottom: 10px;
+    } 
+      
+}
+
+
+
+
+
+
+
+
+/* PHONES */
+
+@media only screen and (max-width:600px){
+    
+    #grid-floats .grid-item:nth-child(1){
+        width:90%;
+        float:left;
+        margin-bottom: 10px;
+        
+    }
+    
+    #grid-floats .grid-item:nth-child(2){
+        width:44%;
+        float:left;
+        margin-bottom: 10px;
+        
+    }
+    
+    #grid-floats .grid-item:nth-child(3){
+        width:44%;
+        float:left;  
+        margin-bottom: 10px
+    }
+    #grid-floats .grid-item:nth-child(4){
+        width:44%;
+        float:left;   
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(5){
+        width:44%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(6){
+        width:44%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(7){
+        width:44%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(8){
+        width:44%;
+        float:left;     
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(9){
+        width:44%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(10){
+        width:44%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(11){
+        width:44%;
+        float:left;    
+        margin-bottom: 10px;
+    }
+    #grid-floats .grid-item:nth-child(12){
+        width:44%;
+        float:left;   
+        margin-bottom: 30px;
+    }
+    #grid-floats .grid-item:nth-child(13){
+        width:44%;
+        float:left;     
+        margin-bottom: 30px;
+    }
+    #grid-floats .grid-item:nth-child(14){
+        width:44%;
+        float:left;    
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    #grid-flex .grid-item:nth-child(1){
+        flex-basis: 90%;
+        float:left; 
+        margin-bottom: 10px;
+    }
+
+    #grid-flex .grid-item:nth-child(2){
+        flex-basis: 44%;
+        float:left; 
+        margin-bottom: 10px;
+    }
+
+    #grid-flex .grid-item:nth-child(3){
+        flex-basis: 44%;   
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(4){
+        flex-basis:44%;    
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(5){
+        flex-basis:44%; 
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(6){
+        flex-basis:44%;    
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(7){
+        flex-basis:44%;    
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(8){
+        flex-basis:44%;     
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(9){
+        flex-basis:44%; 
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(10){
+        flex-basis:44%; 
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(11){
+        flex-basis:44%;  
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(12){
+        flex-basis:44%;
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(13){
+        flex-basis:44%;   
+        float:left; 
+        margin-bottom: 10px;
+    }
+    #grid-flex .grid-item:nth-child(14){
+        flex-basis:44%;  
+        float:left;
+        margin-bottom: 10px;
+    } 
+}
+
